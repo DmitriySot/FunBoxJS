@@ -1,0 +1,34 @@
+{
+  "name": "map-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriySot/FunBoxJS"
+  },
+  "author": "",
+  "license": "",
+  "homepage": "https://github.com/DmitriySot/FunBoxJS",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^2.0.0",
+    "webpack-dev-server": "^2.0.0"
+  },
+  "dependencies": {
+    "google-maps": "^3.3.0",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
